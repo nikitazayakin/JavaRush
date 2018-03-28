@@ -1,6 +1,9 @@
 # instruction file
 Инструкция.png
 
+# .idea folder
+.idea/
+
 # Compiled class file
 *.class
 
