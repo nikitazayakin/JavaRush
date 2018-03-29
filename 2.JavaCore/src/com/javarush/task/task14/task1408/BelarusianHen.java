@@ -9,6 +9,7 @@ public class BelarusianHen extends Hen {
 
     @Override
     String getDescription() {
-        return super.getDescription() + " Моя страна - " + Country.BELARUS + ". Я несу " + getCountOfEggsPerMonth() + " яиц в месяц.";
+        return super.getDescription() + " Моя страна - " + Country.BELARUS + ". Я несу "
+                + getCountOfEggsPerMonth() + " яиц в месяц.";
     }
 }
