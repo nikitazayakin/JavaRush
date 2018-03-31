@@ -4,6 +4,8 @@ package com.javarush.task.task14.task1409;
 Мосты
 */
 
+//import static jdk.nashorn.internal.objects.Global.println;
+
 /**
  * Мосты
  * <p>Создайте интерфейс Bridge с методом getCarsCount(), подсчитывающим количество машин и классы
@@ -18,5 +20,8 @@ public class Solution {
     }
 
     //add println method here
+    public static void println(Bridge bridge) {
+        System.out.println(bridge.getCarsCount());
+    }
 }
 
